@@ -199,12 +199,14 @@ width: 100vh;
 
     function newStep(){
 let paint = document.querySelector("body");
-
+paint.classList.toggle("back");
       
     }
 
 let bulb = document.getElementById("light");
 bulb.addEventListener("click", newStep);
+
+
     </script>
 
 </body>
